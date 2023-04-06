@@ -1,0 +1,68 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+.summary-container {
+    width: 375px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 5px 5px hsl(228, 4%, 77%);
+}
+
+.result-container {
+    width: 375px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat-1 {
+    border: none;
+    width: 325px;
+    height: 50px;
+    background-color: hsl(0, 71%, 91%);
+    border-radius: 10px;
+    padding: 2px 1px;
+}
+
+.cat-2 {
+    border: none;
+    width: 325px;
+    height: 50px;
+    background-color: hsl(39, 71%, 91%);
+    border-radius: 10px;
+}
+
+.cat-3 {
+    border: none;
+    width: 325px;
+    height: 50px;
+    background-color: hsl(166, 71%, 91%);
+    border-radius: 10px;
+}
+
+.cat-4 {
+    border: none;
+    width: 325px;
+    height: 50px;
+    background-color: hsl(234, 39%, 90%);
+    border-radius: 10px;
+}
+
+button {
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    width: 325px;
+    height: 50px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+}
