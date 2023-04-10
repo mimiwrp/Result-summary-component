@@ -25,15 +25,18 @@ body {
 }
 
 .cat-1 {
+    display: flex;
+    flex-wrap: wrap;
     border: none;
     width: 325px;
     height: 50px;
     background-color: hsl(0, 71%, 91%);
     border-radius: 10px;
-    padding: 2px 1px;
+    /* padding: 2px 1px; */
 }
 
 .cat-2 {
+    display: flex;
     border: none;
     width: 325px;
     height: 50px;
@@ -42,6 +45,7 @@ body {
 }
 
 .cat-3 {
+    display: flex;
     border: none;
     width: 325px;
     height: 50px;
@@ -50,11 +54,32 @@ body {
 }
 
 .cat-4 {
+    display: flex;
     border: none;
     width: 325px;
     height: 50px;
     background-color: hsl(234, 39%, 90%);
     border-radius: 10px;
+}
+
+.cat-1 > p:nth-child(3){
+    flex-basis: 200px;
+    text-align: right;
+}
+
+.cat-2 > p:nth-child(3){
+    flex-basis: 200px;
+    text-align: right;
+}
+
+.cat-3 > p:nth-child(3){
+    flex-basis: 200px;
+    text-align: right;
+}
+
+.cat-4 > p:nth-child(3){
+    flex-basis: 200px;
+    text-align: right;
 }
 
 button {
