@@ -5,15 +5,16 @@ body {
 
 .summary-container {
     width: 375px;
-    height: 500px;
+    height: 700px;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0px 5px 5px hsl(228, 4%, 77%);
 }
 
+
 .result-container {
     width: 375px;
-    height: 250px;
+    height: 300px;
     border-radius: 10px;
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
@@ -22,17 +23,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    height: 380px;
+}
+
+.head-item {
+    text-align: left;
 }
 
 .cat-1 {
     display: flex;
-    flex-wrap: wrap;
     border: none;
     width: 325px;
     height: 50px;
     background-color: hsl(0, 71%, 91%);
     border-radius: 10px;
-    /* padding: 2px 1px; */
+    vertical-align: middle;
 }
 
 .cat-2 {
@@ -62,24 +68,33 @@ body {
     border-radius: 10px;
 }
 
+svg {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .cat-1 > p:nth-child(3){
-    flex-basis: 200px;
-    text-align: right;
+    padding-left: 125px;
+    /* flex-basis: 200px;
+    text-align: right; */
 }
 
 .cat-2 > p:nth-child(3){
-    flex-basis: 200px;
-    text-align: right;
+    padding-left: 130px;
+    /* flex-basis: 200px;
+    text-align: right; */
 }
 
 .cat-3 > p:nth-child(3){
-    flex-basis: 200px;
-    text-align: right;
+    padding-left: 145px;
+    /* flex-basis: 200px;
+    text-align: right; */
 }
 
 .cat-4 > p:nth-child(3){
-    flex-basis: 200px;
-    text-align: right;
+    padding-left: 146px;
+    /* flex-basis: 200px;
+    text-align: right; */
 }
 
 button {
