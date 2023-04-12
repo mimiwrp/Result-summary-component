@@ -2,6 +2,8 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     font-weight: 500;
+    width: 700px;
+    margin: auto;
 }
 
 /* summary component */
@@ -114,6 +116,11 @@ button {
 .result-container {
     color: hsl(220, 2%, 66%);
     text-align: center;
+}
+
+.result-main-content {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .circle {
