@@ -24,11 +24,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 380px;
+    height: 300px;
 }
 
 .head-item {
     text-align: left;
+    padding-left: 25px;
 }
 
 .cat-1 {
@@ -36,7 +37,7 @@ body {
     border: none;
     width: 325px;
     height: 50px;
-    background-color: hsl(0, 71%, 91%);
+    background-color: hsl(0, 60%, 94%);
     border-radius: 10px;
     vertical-align: middle;
 }
@@ -46,7 +47,7 @@ body {
     border: none;
     width: 325px;
     height: 50px;
-    background-color: hsl(39, 71%, 91%);
+    background-color: hsl(40, 69%, 95%);
     border-radius: 10px;
 }
 
@@ -55,7 +56,7 @@ body {
     border: none;
     width: 325px;
     height: 50px;
-    background-color: hsl(166, 71%, 91%);
+    background-color: hsl(166, 100%, 97%);
     border-radius: 10px;
 }
 
@@ -64,7 +65,7 @@ body {
     border: none;
     width: 325px;
     height: 50px;
-    background-color: hsl(234, 39%, 90%);
+    background-color: hsl(232, 100%, 97%);
     border-radius: 10px;
 }
 
