@@ -1,126 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    width: 700px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* summary component */
-.summary-container {
-    width: 750px;
-    height: 400px;
+.main-container {
+    width: 375px;
+    height: auto;
     border-radius: 10px;
+    margin: 5rem;
+    font-family: "Hanken Grotesk", sans-serif;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0px 5px 5px hsl(228, 4%, 77%);
-    position: relative;
 }
 
 .result-container {
-    width: 375px;
-    height: 400px;
+    text-align: center;
     border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    padding: 2rem 2rem;
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 300px;
+.summary-container {
+    padding: 1rem 2rem;
 }
 
-.head-item {
-    text-align: left;
-    padding-left: 25px;
+.summary-container .summary {
+    padding-bottom: 1rem;
+}
+.main-container .box {
+    margin-right: 0.5rem;
+}
+.main-container .summary-container p {
+    color: black;
+    font-weight: bold;
+}
+
+.main-container .summary-container span {
+    color: grey;
+}
+
+.main-container .summary-container ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-container ul li {
+    display: flex;
 }
 
 .cat-1 {
-    display: flex;
-    border: none;
-    width: 325px;
-    height: 50px;
+    border-radius: 0.75rem;
     background-color: hsl(0, 60%, 94%);
-    border-radius: 10px;
-    vertical-align: middle;
+    padding: 1.25rem 1rem;
+    margin-bottom: 1rem;
 }
 
 .cat-2 {
-    display: flex;
-    border: none;
-    width: 325px;
-    height: 50px;
+    border-radius: 0.75rem;
     background-color: hsl(40, 69%, 95%);
-    border-radius: 10px;
+    padding: 1.25rem 1rem;
+    margin-bottom: 1rem;
 }
 
 .cat-3 {
-    display: flex;
-    border: none;
-    width: 325px;
-    height: 50px;
+    border-radius: 0.75rem;
     background-color: hsl(166, 100%, 97%);
-    border-radius: 10px;
+    padding: 1.25rem 1rem;
+    margin-bottom: 1rem;
 }
 
 .cat-4 {
-    display: flex;
-    border: none;
-    width: 325px;
-    height: 50px;
+    border-radius: 0.75rem;
     background-color: hsl(232, 100%, 97%);
-    border-radius: 10px;
+    padding: 1.25rem 1rem;
+    margin-bottom: 1rem;
 }
 
-svg {
-    padding-left: 10px;
-    padding-right: 10px;
+.cat-1 b{
+    color: hsl(0, 100%, 67%);
 }
 
-.cat-1 > p:nth-child(3){
-    padding-left: 125px;
-    /* flex-basis: 200px;
-    text-align: right; */
+.cat-2 b{
+    color: hsl(39, 100%, 56%);
 }
 
-.cat-2 > p:nth-child(3){
-    padding-left: 130px;
-    /* flex-basis: 200px;
-    text-align: right; */
+.cat-3 b{
+    color: hsl(166, 100%, 37%);
 }
 
-.cat-3 > p:nth-child(3){
-    padding-left: 145px;
-    /* flex-basis: 200px;
-    text-align: right; */
+.cat-4 b{
+    color: hsl(234, 85%, 45%);
 }
 
-.cat-4 > p:nth-child(3){
-    padding-left: 146px;
-    /* flex-basis: 200px;
-    text-align: right; */
-}
-
-button {
-    font-size: 18px;
-    border-radius: 50px;
-    border: none;
-    width: 325px;
-    height: 50px;
+.submit-button {
+    border-radius: 0.75rem;
+    padding: 1.25rem 1rem;
     color: hsl(0, 0%, 100%);
-    background-color: hsl(224, 30%, 27%);
-}
-
-/* result component */
-.result-container {
-    color: hsl(220, 2%, 66%);
     text-align: center;
-}
-
-.result-main-content {
-    display: table-cell;
-    vertical-align: middle;
+    background-color: hsl(224, 30%, 27%);
 }
 
 .circle {
@@ -128,42 +117,25 @@ button {
     border-radius: 50%;
     height: 120px;
     width: 120px;
-    position: relative;
-    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.circle > div:nth-child(1){
-    padding-top: 20%;
-    margin: 0 auto;
-    vertical-align: middle;
-    color: hsl(0, 0%, 100%);
+.circle h1 {
+    font-size: 55px;
     font-weight: 800;
 }
 
-.circle > div {
-    width: auto;
-    height: auto;
-    position: relative;
-    margin: 0 auto;
+.circle h2 {
+    padding: 2rem 2rem;
 }
 
-.result-sum {
-    color: hsl(0, 0%, 100%);
-    font-weight: 700;
-    padding-top: 5%;
+.circle h3 {
+    padding-bottom: 2rem;
 }
 
-.result-content {
-    padding: 5% 10% 5% 10%;
-}
-
-@media only screen and (max-width: 375px){
-    .summary-container {
-        width: 375px;
-        height: 700px;
-    }
-    .result-container {
-        width: 375px;
-        height: 300px;
-    }
+.circle h3,p {
+    color: hsl(241, 100%, 89%);
 }
