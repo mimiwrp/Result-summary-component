@@ -139,3 +139,21 @@ body {
 .circle h3,p {
     color: hsl(241, 100%, 89%);
 }
+
+@media (min-width: 768px) {
+    .main-container {
+        display: flex;
+        width: 750px;
+        height: 500px;
+    }
+
+    .result-container {
+        width: 50%;
+        padding: 2.5rem 2rem;
+    }
+
+    .summary-container {
+        width: 50%;
+        padding: 2.5rem 2rem;
+    }
+}
